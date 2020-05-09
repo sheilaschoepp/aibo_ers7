@@ -1,0 +1,19 @@
+Source of code:
+http://www.ouroboros.org/evo_gaits.html
+http://www.ouroboros.org/openr_neural_controller.tar.gz
+http://www.ouroboros.org/nets.tar.gz
+
+
+Installation instructions:
+1. Download and unpack openr_neural_controller.tar.gz and nets.tar.gz.  <path_to_folder> will refer to the directory where you have unpacked these files.
+2. Insert a Sony memory stick into a memory card reader that is plugged into your machine.
+3. In terminal, go to the memory stick's directory.  On my ubuntu 18.04 machine, this is in /media/<username>/<memory_card_id>.
+4. Prepare the media stick with the OPEN-R SDK.  Use the wconsole memory protection option.
+> cp -rf /usr/local/OPEN_R_SDK/OPEN_R/MS_ERS7/WCONSOLE/memprot/* .
+5. Move the contents of openr_neural_controller/OPENR to the OPEN-R folder on your memory stick.
+> cd OPEN-R (you should be in the MS/OPEN-R directory)
+> cp -rf <path_to_folder>/openr_neural_controller/OPENR/* .
+6. Move the contents of nets to the /MW/DATA/P folder.
+> cd MW/DATA/P (you should be in the MS/OPEN-R/MW/DATA/P folder)
+> cp -rf <path_to_folder>/nets/* .
+7. Eject the memory stick and insert into the AIBO.

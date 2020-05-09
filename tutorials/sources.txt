@@ -1,0 +1,8 @@
+Source of all tutorial documents:
+
+AIBO Programming Using OPEN-R SDK: http://homes.dsi.unimi.it/~tirelli/robotics/material/tutorial/tutorial_OPENR_ENSTA-1.0.pdf (April 11, 2020)
+AIBO Programming Tutorial: https://www.cc.gatech.edu/~tucker/courses/amrs/aibo/AIBOProgrammingTutorial.pdf (April 11, 2020)
+AIBO Programming: http://www.ouroboros.org/notes.pdf (April 11, 2020)
+Testing OPEN-R Samples for Sony AIBO ERS-7: https://paginas.fe.up.pt/~lpreis/robo2004/documents/samples.pdf (April 28, 2020)
+AIBO Quickstart Manual: http://www.ouroboros.org/AIBO-quickstart.pdf (May 3, 2020)
+OPEN-R Essentials: http://www.ouroboros.org/open-r_v1.0.pdf (May 3, 2020)
