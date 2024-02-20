@@ -1,5 +1,20 @@
 # aibo_ers7
 
+## OPEN-R SDK installation instructions on Ubuntu 18.04
+
+1. Open terminal and install required packages.  
+`sudo apt update`  
+`sudo apt-get install git flex`
+2. Clone the aibo_ers7 GitHub repository.  
+`git clone https://github.com/sheilaschoepp/aibo_ers7.git`
+3. Enter the aibo_ers7/sony directory, setup file permissions and complete the OPEN-R SDK installation.  
+`cd aibo_ers7/sony`  
+`chmod a+x build-aibo-toolchain-3.3.6-r3.sh`  
+`sudo ./build-aibo-toolchain-3.3.6-r3.sh`  
+
+To verify the OPEN-R SDK installation, compile and run a sample program by following the instructions on page 4 of "Testing_OPEN-R_Samples_for_Sony_AIBO_ERS-7.pdf" in the aibo_ers7/tutorials folder.
+
+
 ## Source(s)
 
 All documentation was downloaded in April 2020. Links annotated with an asterisk (*) are no longer accessible.
@@ -46,21 +61,6 @@ All documentation was downloaded in April 2020. Links annotated with an asterisk
 ### sony/software
 
 1. [Install OPEN-R on Linux.pdf](http://www.dogsbodynet.com/openr/install_openr_linux.html)
-
-#### OPEN-R SDK installation instructions on Ubuntu 18.04
-
-1. Open terminal and install required packages.  
-`sudo apt update`  
-`sudo apt-get install git flex`
-2. Clone the aibo_ers7 GitHub repository.  
-`git clone https://github.com/sheilaschoepp/aibo_ers7.git`
-3. Enter the aibo_ers7/sony directory, setup file permissions and complete the OPEN-R SDK installation.  
-`cd aibo_ers7/sony`  
-`chmod a+x build-aibo-toolchain-3.3.6-r3.sh`  
-`sudo ./build-aibo-toolchain-3.3.6-r3.sh`  
-
-To verify the OPEN-R SDK installation, compile and run a sample program by following the instructions on page 4 of "Testing_OPEN-R_Samples_for_Sony_AIBO_ERS-7.pdf" in the aibo_ers7/tutorials folder.
-
 
 
 ### tutorials
