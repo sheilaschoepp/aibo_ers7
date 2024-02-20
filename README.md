@@ -17,7 +17,7 @@ To verify the OPEN-R SDK installation, compile and run a sample program by follo
 
 ## Source(s)
 
-All documentation was downloaded in April 2020. Links annotated with an asterisk (*) are no longer accessible.
+All documentation was downloaded in April 2020. Links annotated with an asterisk (*) are no longer accessible (as of February 2024).
 
 
 
