@@ -1,1 +1,0 @@
-Source of all files: http://www.dogsbodynet.com/openr/install_openr_linux.html (April 13, 2020)
